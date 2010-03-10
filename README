@@ -1,0 +1,5 @@
+This is a simple class called "Dabbler" that will read json data from DabbleDB
+
+It could probably implements some SPL interfaces and be much more elegant.
+
+It's data returned is array data, as dabbles supports column names that would confound a standard object
