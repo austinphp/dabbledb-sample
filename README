@@ -2,4 +2,11 @@ This is a simple class called "Dabbler" that will read json data from DabbleDB
 
 It could probably implements some SPL interfaces and be much more elegant.
 
-It's data returned is array data, as dabbles supports column names that would confound a standard object
+It's data returned is array data, as dabbles supports column names that would 
+confound a standard object
+
+The data URL in question here is a public facing "view" of a data table in
+dabble, viewed as JSON. It's fairly easy to navigate to here from the web
+interface.  However, if the data is not publicly available, one would need
+ to extend or modify this class or the URL in order to get the authentication 
+ included.
