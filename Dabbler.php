@@ -54,6 +54,9 @@ class Dabbler
         return null;
     }
     
+    /**
+     * @return bool
+     */
     private function _loadData()
     {
         $jsContent = file_get_contents($this->_dataUrl);
